@@ -2,7 +2,7 @@ import java.util.*;
 class Fact
 {
 	static int i;
-	int j=i-1;
+	int j;
 	int k;
 	
 	void factorial(int a)
@@ -11,7 +11,7 @@ class Fact
 		j=j-1;
 		if(j==0)
 		{
-			System.out.println(i);
+			System.out.println(factorial of given number is" + i);
 			return;
 		}
 		factorial(a);
@@ -28,6 +28,7 @@ System.out.println("enter any number");
 Scanner s=new Scanner(System.in);
 b=s.nextInt();
 Fact.i=b;
+Fact.j=b-1;		
 f.factorial(b);
 }
 }
