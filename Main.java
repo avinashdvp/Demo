@@ -1,8 +1,8 @@
-package lowestnumber;
-//finding lowest number using array
-import java.util.*;
- class Main 
- {
+package assending;
+
+import java.util.Scanner;
+class Main 
+{
 	public static void main(String[] args) 
 	{
 		// TODO Auto-generated method stub
@@ -14,7 +14,9 @@ import java.util.*;
 		{
 			a[i]=sc.nextInt();
 		}
-		for(i=0;i<5;i++)
+		for(j=0;j<5;j++)
+		{
+		for(i=j;i<5;i++)
 		{
 			if(a[i]>a[i+1])
 			{
@@ -24,8 +26,13 @@ import java.util.*;
 			}
 			if(i==4)
 			{
-			System.out.println("lowest number is "+a[0]);
+				temp=a[i];
+				a[i]=a[i+1];
+				a[i+1]=temp;
+				
+		System.out.println(a[j]);
 			}
+		}
 		}
 		
 }
