@@ -1,5 +1,4 @@
 package table1;
-//five table
 import java.util.*;
 class A
 {
