@@ -1,70 +1,33 @@
-package inheritence;
-class Similar
-{
-	String name;
-	int age;
-	void setval(String b,int c)
-	{
-	name=b;
-	age=c;
-	}
-	void dispsim()
-	{
-		System.out.println(name);
-		System.out.println(age);
-	}
-	
-}
-class Student extends Similar
-{
- int rollno;
- int rank;
- void studinp(String a,int f,int c,int d)
- {
-	setval(a,f);
-	rollno=c;
-	rank=d;
- }
- void dispstud()
- {
-	 dispsim();
-	 System.out.println(rollno);
-	 System.out.println(rank);
- }
-}
-class Teacher extends Similar
-{
-	int id;
-	int sal;
-	void teachinp(String a,int b,int c,int d)
-	{
-		setval(a,b);
-		id=c;
-		sal=d;
-	}
-	void dispteach()
-	{
-		dispsim();
-		System.out.println(id);
-		System.out.println(sal);
-		
-	}
-	
-}
+package biggestnumber;
 
-
-class Main {
-
+//finding lowest number using array
+import java.util.*;
+class Main 
+{
 	public static void main(String[] args) 
 	{
-		Student s1=new Student();
-		Student s2=new Student();
-		Teacher t1=new Teacher();
-		Teacher t2=new Teacher();
-		s1.studinp("raju",20,200,1);
-		t1.teachinp("kiran",30,300,20);
-		s1.dispstud();
-		t1.dispteach();
-	}
-
+		// TODO Auto-generated method stub
+		int a[]=new int[100];
+		int i,j,n,total=0,temp;
+		System.out.println("enter any 5 numbers");
+		Scanner sc=new Scanner(System.in);
+		for(i=0;i<5;i++)
+		{
+			a[i]=sc.nextInt();
+		}
+		for(i=0;i<5;i++)
+		{
+			if(a[i]>a[i+1])
+			{
+				temp=a[i];
+				a[i]=a[i+1];
+				a[i+1]=temp;
+			}
+			if(i==4)
+			{
+			System.out.println("biggest number is "+a[5]);
+			}
+		}
+		
+}
 }
