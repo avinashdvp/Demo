@@ -1,9 +1,8 @@
-package biggestnumber;
-
+package lowestnumber;
 //finding lowest number using array
 import java.util.*;
-class Main 
-{
+ class Main 
+ {
 	public static void main(String[] args) 
 	{
 		// TODO Auto-generated method stub
@@ -25,7 +24,7 @@ class Main
 			}
 			if(i==4)
 			{
-			System.out.println("biggest number is "+a[5]);
+			System.out.println("lowest number is "+a[0]);
 			}
 		}
 		
