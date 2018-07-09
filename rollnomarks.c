@@ -1,3 +1,4 @@
+//read rollno and marks and store in array and print
 #include<stdio.h>
 void main()
 {
@@ -27,7 +28,6 @@ void main()
 	for(j=0;j<n;j++)
 	{
 	printf(" %d",b[j]);
-		
 		
 	}
 }
