@@ -22,7 +22,7 @@ void main()
 							puts("vowel");
 							break;
 							   default:
-						            puts("entered alphabet is consonent");
+						            puts("entered alphabet is consonant");
 									break;
 	}
 }
