@@ -1,4 +1,4 @@
-//testing a given n umber is even or odd
+//testing a given number is even or odd
 #include<stdio.h>
 void main()
 {
