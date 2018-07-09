@@ -1,5 +1,5 @@
 package assending;
-
+//assending order
 import java.util.Scanner;
 class Main 
 {
