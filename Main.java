@@ -7,7 +7,7 @@ class Main
 	{
 		// TODO Auto-generated method stub
 		int a[]=new int[100];
-		int i,j,n,total=0,temp;
+		int i,j,n,temp;
 		System.out.println("enter any 5 numbers");
 		Scanner sc=new Scanner(System.in);
 		for(i=0;i<5;i++)
