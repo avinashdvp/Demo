@@ -1,4 +1,5 @@
-//printing #include<stdio.h>
+//printing 
+#include<stdio.h>
 void main()
 {
 	puts("trial");
