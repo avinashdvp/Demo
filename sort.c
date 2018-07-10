@@ -1,3 +1,4 @@
+//enter any 5 numbers to sort them
 #include<stdio.h>
 void main()
 {
