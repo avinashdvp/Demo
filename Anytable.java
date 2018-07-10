@@ -16,7 +16,7 @@ class A
     void m()
     {
     	i=n*j;
-    	System.out.println("5*"+j+"="+i);
+    	System.out.println(n+"*"+j+"="+i);
     	j++;
     	
     	if(j==x)
